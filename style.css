@@ -1,0 +1,186 @@
+
+body{
+    background-color: #0E2954;
+    
+
+}
+#header{
+    display:flex;
+    flex-direction: row;
+    margin-right: 20px;
+    position: absolute;
+    top:30px;
+    
+    font-weight: 900;
+    width:60%
+    
+}
+#logo{
+    border:none;
+    position: relative;
+    bottom: 13px;
+}
+
+a{
+    margin-right: 50px ;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 900;
+}
+#home{
+    margin-left: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 900;
+}
+select{
+    margin-right: 50px;
+    color:whitesmoke;
+    text-decoration: none;
+    border-color: #0e2954;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color: #0E2954;
+   
+}
+#box{
+    height:360px;
+    width:400px;
+    background-color:#0E2954;
+    margin-top: 50px;
+    margin-left: 35%;
+    position: relative;
+    top:50px;
+    font-family:cursive;
+    text-align: center;
+        color: whitesmoke;
+        background-image: url(samwaad.png);
+        background-size: cover;
+        
+
+} 
+#gal{
+    text-align: center;
+    font-family: cursive;
+    color: whitesmoke;
+    /* padding-left: 10px; */
+    position: absolute;
+    left:20px;
+}
+img{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+img:hover{
+    transform: scale(1.1);
+}
+#time{
+        height:300px;
+    width:15%;
+        color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    left:10px;
+    top:150px; 
+    
+    
+}
+#spea{
+    display:flex;
+    flex-direction: row;
+     padding-left: 10vw; 
+     margin-top: 100px;
+
+}
+
+div{
+        margin-right: 150px;
+}
+#fa{
+    color: whitesmoke;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 590px;
+    left:35px;
+    /* text-decoration: underline; */
+}
+
+#reg{
+    height:300px;
+    width:250px;
+    /* background-color: aqua; */
+    position: absolute;
+    top:150px;
+    right: 10px;
+    border:2px solid black;
+    text-align: center;
+    color: whitesmoke;
+    margin-right: 200px;
+}
+input{
+    width:200px;
+    color: whitesmoke;
+    background-color: #0E2954;
+    /* border-top:1px solid #0E2954 ;
+    border-left:1px solid #0E2954 ;
+    border-right:1px solid #0E2954 ;
+    border-bottom: 2px solid black; */
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 25px;
+        }
+
+        button{
+            background-color: whitesmoke;
+        }
+        h4{
+            color: whitesmoke;
+            position: relative;
+            left: 25px;
+            bottom: 27px;
+            font-size: medium;
+            font-family: cursive;
+        }
+        h5{
+            position: relative;
+            bottom: 24px;
+            left: 25px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: small;
+        }
+        #past{
+            position: relative;
+            top: 50px;
+            left:70px;
+            text-align: center;
+            font-family: cursive;
+            color: whitesmoke;
+        
+        }
+        
+        footer{
+            position:absolute;
+            left:0px;
+            top:1600px;
+            background-color:black;
+            height:100px;
+            width: 100%;
+            
+        }
+        #copy{
+            color: whitesmoke;
+            text-align: center;
+            position: relative;
+            top: 35px;
+        }
+    @media(width:500px){
+        footer{
+            background-color: brown;
+        }
+    }
